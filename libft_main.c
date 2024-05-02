@@ -31,7 +31,6 @@ static void ft_lstdump(t_list *lst)
 }
 int main()
 {
-    /*
     // ------------- ft_split -----------------
     char * fsplit = "Something|for|test"; //Allocated in the immutable memory
     char ** spr;
@@ -70,8 +69,8 @@ int main()
     char * trim_result;
     trim_result = ft_strtrim(str2trim, what2trim);
     printf("ft_strtrim. String =  %s, Trim = %s Result = %s\n", str2trim, what2trim, trim_result);
-*/
-    // -------------- BONUS -----------------
+
+	// -------------- BONUS -----------------
     char * lst_content = "Node\0";
     char * lst_content1 = "Another node";
     t_list * mylist;
